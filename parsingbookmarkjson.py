@@ -17,7 +17,7 @@ def parse_chrome_bookmarks(file_path):
         return urls
 
 # Example usage:
-file_path = r"C:\Users\sikha\AppData\Local\Google\Chrome\User Data\Default\Bookmarks"
+file_path = r"C:\Users\<user>\AppData\Local\Google\Chrome\User Data\Default\Bookmarks"
 bookmark_urls = parse_chrome_bookmarks(file_path)
 for url in bookmark_urls:
     print(url)
